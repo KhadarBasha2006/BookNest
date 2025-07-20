@@ -1,7 +1,86 @@
-# BookNest
-BookNest : Where Stories Nestle 
-Welcome to the literary haven of the digital age—introducing our revolutionary Book-Store Application, a masterpiece crafted with precision using the powerful MERN (MongoDB, Express.js, React, Node.js) Stack. Immerse yourself in a world where the love for reading converges seamlessly with cutting-edge technology, redefining the way bibliophiles explore, discover, and indulge in their literary pursuits.
-Tailored for the modern book enthusiast, our MERN-based Book-Store Application seamlessly blends robust functionality with an intuitive user interface. From the joy of discovering new releases to the nostalgia of revisiting timeless classics, our platform promises an immersive reading experience customized to cater to your literary preferences.
-Fueling the backbone of our application is MongoDB, ensuring a scalable and efficient database infrastructure that facilitates swift access to an extensive collection of literary works. Express.js, with its streamlined web application framework, establishes a responsive and efficient server, while Node.js ensures high-performance, non-blocking I/O operations—resulting in a seamless and enjoyable user experience.
-At the heart of our Book-Store Application lies React, a dynamic and feature-rich JavaScript library. Dive into a visually enchanting and interactive interface where every click, search, and book selection feels like a literary journey. Whether you're exploring on a desktop, tablet, or smartphone, our responsive design ensures a consistent and delightful experience across all devices.
-Say farewell to the constraints of traditional bookstores and embrace a new era of possibilities with our MERN Stack Book-Store Application. Join us as we transform how you connect with literature, making the discovery of your next favorite read an effortless and enriching experience. Get ready to turn the digital pages of a new chapter in reading, where every book is just a click away, and the literary world is at your fingertips. It's time to open the door to a future where the love for books meets the convenience of modern technology.
+# 📚 BookNest: Where Stories Nestle
+
+A simple and immersive book discovery and reading platform that allows users to explore, organize, and dive into their favorite stories. This app is designed to enhance the experience for both book lovers and independent authors.
+
+## 🚀 Features
+
+- 👤 Reader & Author Login  
+- 📖 Explore, Bookmark, and Remove Books  
+- 🔍 Search Books by Genre, Title, or Author  
+- 🕒 Real-Time Reading Progress Tracking  
+- 📬 Email Notifications for New Releases  
+- 📜 Personal Library & Reading History  
+- 📱 Responsive UI (Mobile + Web Friendly)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript / React  
+- **Backend**: Node.js / Django / Flask  
+- **Database**: MongoDB / MySQL / PostgreSQL  
+- **Authentication**: JWT / Firebase / OAuth  
+- **Deployment**: Vercel / Netlify / Heroku / Render
+
+## 📸 Screenshots
+
+| Home | Book Search | Reading View |
+|------|-------------|--------------|
+| ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Reading](screenshots/reading.png) |
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/booknest.git
+   cd booknest
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file and add your configuration:
+   ```env
+   DB_URI=your_database_uri
+   JWT_SECRET=your_secret
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## 🧪 Testing
+
+Run tests using:
+```bash
+npm test
+```
+
+## 📌 Future Enhancements
+
+- 🖋️ Author Profile Management  
+- 💬 In-App Reader Discussion Boards  
+- 📆 Reading Calendar & Reminders  
+- 💳 Subscription & Purchase Integration  
+- 🗣️ Multi-Language Support
+
+## 🐞 Known Issues
+
+- No reading reminders yet  
+- No push notification support (mobile)  
+- UI misalignment on very small screens
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+🔗 Drive : https://drive.google.com/drive/folders/1cdVMCo9TqlWRkPG76JBZw_PQ6Ln7_mbY?usp=drive_link
+🌐 Live Demo : https://youtu.be/PG8lyu4RXuA?si=dbXaAaEoYLM84WdO 
+
+---
